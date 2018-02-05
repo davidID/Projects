@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 html {
     background-color: #ffffff;
     color: #555555;
@@ -11,4 +12,32 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+}
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/backgroundimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h1 {
+    margin: 0;
 }
